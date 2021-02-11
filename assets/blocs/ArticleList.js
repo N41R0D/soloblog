@@ -3,8 +3,6 @@ import articlesApi from "../api/ArticlesApi";
 import { Link, withRouter } from "react-router-dom";
 import { Button, Card } from 'react-bootstrap';
 
-
-
 const ArticleList = () => {
     const [listArt, setListArt] = useState([]);
 

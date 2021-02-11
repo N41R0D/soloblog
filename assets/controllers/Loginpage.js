@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import ArticleList from "../blocs/ArticleList";
 import Header from "../blocs/Header";
+import LoginForm from "../blocs/LoginForm";
 
-const Homepage = () => {
-
+const Loginpage = () => {
     return (
         <div>
             <Header></Header>
-            <ArticleList />
+            <LoginForm></LoginForm>
         </div>
     );
 }
-export default Homepage;
+export default Loginpage;

@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import ArticleList from "../blocs/ArticleList";
 import Header from "../blocs/Header";
+import ArticleArray from "../blocs/ArticleArray";
 
-const Homepage = () => {
-
+const Articleadmin = ({match}) => {
     return (
         <div>
             <Header></Header>
-            <ArticleList />
+            <ArticleArray></ArticleArray>
         </div>
     );
 }
-export default Homepage;
+export default Articleadmin;
